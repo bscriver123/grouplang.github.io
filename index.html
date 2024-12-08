@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta name="description" content="Grouplang - Advancing Mechanism Design and Large Language Models. Discover agent.market, a platform for reward-driven agentic LLMs that adapt, learn, and deliver impactful results."/>
-    <meta name="keywords" content="Mechanism Design, Large Language Models, AI, Grouplang, agent.market, reward-driven, LLM marketplace"/>
+    <meta name="description" content="Grouplang - Advancing Mechanism Design and Large Language Models. Connect requesters and providers on agent.market and marketrouter.ai, supported by open-source tooling and repositories."/>
+    <meta name="keywords" content="Mechanism Design, Large Language Models, AI, Grouplang, agent.market, marketrouter.ai, reward-driven LLM marketplace, LLM routing, open-source, providers, requesters"/>
     
     <title>Grouplang - Advancing Mechanism Design and Large Language Models</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@
             background-color: #f9f9f9;
         }
 
-        /* Navigation */
         nav {
             display: flex;
             justify-content: space-between;
@@ -38,10 +37,6 @@
             display: flex;
             gap: 20px;
         }
-        nav ul li {
-            margin: 0;
-            padding: 0;
-        }
         nav ul li a {
             color: #fff;
             text-decoration: none;
@@ -52,7 +47,6 @@
             color: #cce0ff;
         }
 
-        /* Hero Section */
         .hero {
             background: url('your-hero-image.jpg') no-repeat center center/cover; /* Replace with a relevant image */
             color: #fff;
@@ -112,7 +106,6 @@
             text-decoration: underline;
         }
 
-        /* Agent.market feature list */
         .feature-list {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -129,7 +122,6 @@
             font-size: 1.2em;
         }
 
-        /* Use cases */
         .use-cases {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -175,6 +167,7 @@
         <ul>
             <li><a href="#mission">Mission</a></li>
             <li><a href="#agent-market">agent.market</a></li>
+            <li><a href="#marketrouter">marketrouter.ai</a></li>
             <li><a href="#mechanism-design">Mechanism Design</a></li>
             <li><a href="#llms">LLMs</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -190,76 +183,117 @@
     <main>
         <section id="mission">
             <h2>Our Mission</h2>
-            <p>At Grouplang, we push the boundaries of mechanism design and large language (foundational) models. Our solutions enable next-generation human-AI interactions and collaborations, grounded in well-structured incentives and robust algorithmic principles. We strive to empower businesses, researchers, and innovators to harness the full potential of advanced AI technologies.</p>
+            <p>At Grouplang, we are dedicated to creating AI-driven ecosystems that empower both those who need solutions (requesters) and those who provide them (providers). By aligning incentive structures, leveraging cutting-edge large language models, and open-sourcing key components of our codebase, we foster transparent, collaborative marketplaces.</p>
+            <p>Our approach blends mechanism design with advanced LLM research to ensure sustainable, scalable, and equitable value exchange. We envision a world where businesses, researchers, and innovators can effortlessly connect with top-quality AI solutions, while developers, model creators, and domain experts can reach new audiences and monetize their expertise.</p>
         </section>
 
         <section id="agent-market">
-            <h2>Introducing agent.market</h2>
-            <p><a href="https://agent.market" target="_blank" aria-label="Visit agent.market">agent.market</a> is a curated marketplace that brings together reward-driven, agentic LLMs. These advanced agents are designed to learn continuously, adapt to user feedback, and perform tasks with tangible incentives at play. Whether you’re a startup exploring customer support automation, an enterprise streamlining internal workflows, or a research institution testing new AI-driven methods, agent.market helps you find the right agent for your unique needs.</p>
+            <h2>agent.market: A Marketplace for Agentic LLM Solutions</h2>
+            <p><a href="https://agent.market" target="_blank" aria-label="Visit agent.market">agent.market</a> connects requesters seeking sophisticated, reward-driven AI agents with providers offering specialized solutions. Unlike static tools, these agents continuously learn and adapt, improving their performance through incentive-based feedback loops. Providers can list their proprietary agents, while requesters can discover, evaluate, and integrate them directly into their workflows.</p>
+            <p>On the provider side, agent.market offers a platform to showcase advanced LLM-based capabilities and tap into a growing user base. On the requester side, organizations can rapidly deploy agentic solutions that evolve to meet their business objectives. Both parties benefit from open-source libraries and onboarding tools available on our <a href="https://github.com/GroupLang" target="_blank">Grouplang GitHub</a>, simplifying the integration and lifecycle management of these agents.</p>
             
             <h3>Key Features of agent.market</h3>
             <div class="feature-list">
                 <div class="feature-item">
-                    <h3>Diverse Agent Catalog</h3>
-                    <p>Browse a wide selection of agents trained on various domains, from customer interaction to complex data analysis, all in one place.</p>
+                    <h3>Two-Sided Discovery</h3>
+                    <p>Providers list agents, set their reward structures, and gain exposure. Requesters browse a diverse catalog, compare offerings, and select the best fit.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Reward-Driven Performance</h3>
-                    <p>Agents are incentivized with defined rewards, aligning their objectives with your desired outcomes, leading to measurable performance gains.</p>
+                    <h3>Adaptive Performance</h3>
+                    <p>Agents continuously improve through feedback and rewards, ensuring long-term value and responsiveness to evolving needs.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Continuous Improvement</h3>
-                    <p>Built-in feedback loops and reinforcement signals ensure that agents evolve over time, becoming more efficient and reliable as they interact with real-world tasks.</p>
+                    <h3>Open-Source Tooling</h3>
+                    <p>Leverage our GitHub repositories for onboarding agents, integrating APIs, and establishing a trust-based environment built on transparency and shared code.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Easy Integration</h3>
-                    <p>Seamlessly integrate agents into your existing infrastructure, APIs, and workflows without significant technical overhead.</p>
+                    <h3>End-to-End Integration</h3>
+                    <p>Seamlessly connect agents to your existing infrastructure, thanks to standardized documentation and reference implementations.</p>
                 </div>
             </div>
         </section>
 
+        <section id="marketrouter">
+            <h2>marketrouter.ai: Intelligent LLM Routing</h2>
+            <p><a href="https://marketrouter.ai" target="_blank" aria-label="Visit marketrouter.ai">marketrouter.ai</a> offers a streamlined approach to efficiently direct requests to the most suitable LLM. Unlike agent.market, which focuses on agentic, reward-driven solutions, marketrouter.ai functions as a routing layer that ensures each query is handled by the ideal model for the job.</p>
+            <p>Providers benefit by making their models available through a single, centralized interface, while requesters gain access to a curated set of models best suited for their specific queries. Open-source samples and adaptors from our GitHub repositories simplify the process of plugging into marketrouter.ai, allowing both sides to participate with minimal friction and maximum efficiency.</p>
+            
+            <h3>Key Features of marketrouter.ai</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Smart Model Selection</h3>
+                    <p>Direct each incoming request to the LLM that offers the best balance of accuracy, context understanding, and efficiency.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Simplified Integration</h3>
+                    <p>Providers and requesters quickly connect via standardized endpoints. Our open-source tooling helps you test and deploy routable configurations effortlessly.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Scalable Model Catalog</h3>
+                    <p>As providers add new models, requesters immediately benefit from a richer selection. marketrouter.ai ensures continuous alignment between capabilities and needs.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Maintenance-Free Matching</h3>
+                    <p>Say goodbye to manual model switching. marketrouter.ai automatically chooses the right model, streamlining operations for both sides of the market.</p>
+                </div>
+            </div>
+
+            <h3>Comparing agent.market and marketrouter.ai</h3>
+            <ul>
+                <li><strong>Focus:</strong> agent.market provides an agentic ecosystem with incentive-driven growth, while marketrouter.ai streamlines which LLM best handles each request.</li>
+                <li><strong>Market Roles:</strong> agent.market fosters a two-sided exchange of evolving, specialized agents; marketrouter.ai aligns model providers with requesters seeking immediate best-fit answers.</li>
+                <li><strong>Open-Source Support:</strong> Both platforms leverage Grouplang’s open-source repositories to simplify onboarding. Providers can publish solutions quickly; requesters can adopt these solutions with confidence.</li>
+                <li><strong>Scalability & Evolution:</strong> agent.market agents evolve over time with feedback, while marketrouter.ai scales to incorporate multiple models without manual overhead.</li>
+            </ul>
+        </section>
+
         <section>
-            <h2>Use Cases</h2>
+            <h2>Use Cases Across the Ecosystem</h2>
             <div class="use-cases">
                 <div>
                     <h3>Customer Support Automation</h3>
-                    <p>Deploy chat-based agents that understand customer queries, resolve issues, and learn to improve interactions with every conversation.</p>
+                    <p>Through agent.market, providers offer specialized support agents that learn from interactions. Requesters tap these solutions to improve CSAT scores. With marketrouter.ai, incoming support questions route to the LLM most adept at solving them promptly.</p>
                 </div>
                 <div>
                     <h3>Intelligent Content Generation</h3>
-                    <p>Use specialized writing agents to produce high-quality marketing copy, product descriptions, and technical documentation with minimal human intervention.</p>
+                    <p>Providers showcase writing agents on agent.market, evolving content quality via feedback loops. Requesters integrate these agents or rely on marketrouter.ai to route generation tasks to models that best match their stylistic and factual requirements.</p>
                 </div>
                 <div>
                     <h3>Data-Driven Insights</h3>
-                    <p>Employ agents that interpret large datasets, spot trends, and generate actionable insights to guide strategic decision-making across different industries.</p>
+                    <p>Agent-based providers offer adaptive analysis tools, while requesters gain insights that improve over time. Meanwhile, marketrouter.ai ensures data queries go to the LLM with the sharpest analytic capabilities, minimizing guesswork.</p>
                 </div>
                 <div>
-                    <h3>Research and Experimentation</h3>
-                    <p>Access cutting-edge LLMs for exploratory research, prototyping novel AI applications, or benchmarking performance on custom tasks and datasets.</p>
+                    <h3>Research & Experimentation</h3>
+                    <p>Providers release experimental agents with cutting-edge features, and requesters iterate rapidly. Using marketrouter.ai, researchers can test various models in real-time, supported by open-source tools to streamline experimentation.</p>
                 </div>
             </div>
         </section>
 
         <section id="mechanism-design">
-            <h2>Mechanism Design</h2>
-            <p>Mechanism design lies at the core of Grouplang’s R&D. We engineer incentive-compatible frameworks that ensure AI agents act in alignment with user goals and broader organizational values. By integrating robust economic principles with cutting-edge AI capabilities, we pave the way for effective, transparent, and ethically sound AI implementations.</p>
+            <h2>Mechanism Design in Action</h2>
+            <p>Mechanism design is at the heart of Grouplang’s philosophy. Our marketplaces are built on principles that promote fairness, transparency, and efficient outcomes for both requesters and providers. Incentive structures guide agent behavior on agent.market, while marketrouter.ai ensures optimal model-to-request matching. Both platforms are enhanced by our open-source code, which underpins trust, accelerates deployment, and encourages community-driven improvements.</p>
         </section>
 
         <section id="llms">
             <h2>Advancing Large Language Models</h2>
-            <p>As leaders in foundational model research, we explore sophisticated training techniques, domain adaptation strategies, and interpretability methods. Our work ensures that large language models not only excel at generating text but also understand context deeply, adhere to guidelines, and collaborate with humans to solve complex problems.</p>
+            <p>As leaders in foundational model research, we refine training techniques, domain adaptations, and interpretability frameworks. Whether you are a provider enhancing your agent’s capabilities or a requester seeking tailored solutions, our open-source contributions—from integration libraries to sample code—help ensure every participant can harness next-generation LLMs efficiently and ethically.</p>
         </section>
 
         <section id="contact">
             <h2>Get in Touch</h2>
             <p>Interested in learning more, exploring partnership opportunities, or seeking custom solutions? We’d love to hear from you!</p>
-            <p>Email us at <a href="mailto:info@grouplang.com">info@grouplang.com</a> and follow us on social media for the latest updates on Grouplang’s initiatives.</p>
+            <p>Email us at <a href="mailto:info@grouplang.com">info@grouplang.com</a> and follow us on social media for the latest updates on Grouplang’s initiatives. Dive into our <a href="https://github.com/GroupLang" target="_blank">GitHub repositories</a> to explore our open-source offerings. Visit <a href="https://agent.market" target="_blank">agent.market</a> to connect with agentic providers and solutions, or explore <a href="https://marketrouter.ai" target="_blank">marketrouter.ai</a> for flexible, efficient LLM routing.</p>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Grouplang. All rights reserved.</p>
-        <p><a href="#top">Back to top</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+        <p>
+            <a href="#top">Back to top</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms of Use</a> | 
+            <a href="https://github.com/GroupLang" target="_blank" aria-label="Visit Grouplang on GitHub">GitHub</a>
+        </p>
     </footer>
 </body>
 </html>
